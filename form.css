@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #fbf3ff !important;
+}
+
+.container{
+    position: absolute;
+    max-width: 800px;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* border: 2px solid black; */
+}
+
+.rightCtn{
+    position: relative;
+    background: linear-gradient(45deg, #990000, #FF0000);
+    border-radius: 25px;
+    height: 100%;
+    padding: 25px;
+    color:#fff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:2.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.rightCtn header{
+    margin-bottom: 20px;
+}
+
+.leftCtn{
+    position: relative;
+    background: #fff;
+    border-radius: 25px;
+    height: 100%;
+    padding: 25px;
+}
+
+.leftCtn header{
+    color:#FF0000;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.row{
+    height: 100%;
+}
+
+.myCard{
+    position: relative;
+    height: 100%;
+    border-radius: 25px;
+    background: #fff;
+    box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+}
+
+.leftCtn .myInput{
+    min-width: 230px;
+    border-radius:25px;
+    padding: 10px;
+    border: none;
+    padding-left: 50px;
+    box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+}
+
+.leftCtn .myInput:focus{
+    outline: none;
+}
+
+.myForm{
+    position: relative;
+    margin-top: 50px;
+}
+
+.leftCtn .btt{
+    background: linear-gradient(45deg, #990000, #FF0000);
+    color: #fff;
+    min-width: 230px;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    font-weight: 600;
+    box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+}
+
+.leftCtn .btt:hover{
+    background: linear-gradient(45deg, #FF0000, #cc0000);
+}
+
+.leftCtn .btt:focus{
+    outline: none;
+}
+
+.leftCtn .fas{
+    position: relative;
+    left: 36px;
+    color: #FF0000;
+}
+
+.formerror{
+    color: red;
+}
